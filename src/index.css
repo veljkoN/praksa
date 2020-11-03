@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F9FB;
+  position: relative;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.topDiv{
+  background-color: #212224;
+}
+#teleponeImg{
+  width: 20px;
+}
+.textLang{
+  color: #8C8F92;
+}
+.navbar-brand img {
+  width: 90px;
+}
+.navbar-nav li a{
+  color:darkslategray
+}
+.col-example {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+main{
+  background: url("./images/city-road.jpg") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  }
+  #main-box{
+    height: 300px;
+  }
+  #mainText{
+    letter-spacing: 2px;
+    margin-top: 150px;
+    font-size: 2.3em;
+    font-family: 'Anton', sans-serif;
+    color: beige;
+  }
+  .btn-group .btn{  
+    border-radius: 0%!important;
+  }
+  .fas .fa-play{
+    color:white;
+  }
+  #spanText1{
+    background-color: firebrick;
+    color: white;
+    padding: 5px 9px 1px 9px;
+  }
+  #main-box2{
+    height: 100px;
+  }
+  #boxCubes{
+    width: 100%;
+    background-color: red;
+  }
+  .fa-square{
+    margin-left: 10px;  
+  }
+  #redSquare{
+    color: red;
+  }
+  #spanText2{
+    background-color: firebrick;
+    color: white;
+    padding: 5px 9px 1px 9px;
+  }
+  .truckBox{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .middle-box{
+    height: 490px;
+  }
+  .border{
+    border: 16px solid transparent;
+  }
+  .truckText{
+    height: 170px;
+    overflow: hidden;
+  }
+  .truckImg{
+    width: 120px;
+    height: 70px;
+    margin: 20px 5px;
+  }
+  .btnRed{
+    background-color: firebrick;
+    color: white;
+    border: 1px solid gray;
+    margin-left: 0px auto;
+    margin-right: 0px auto;
+    text-align: center;
+    margin:0 auto;
+    display:block;
+    margin-top: 20px;
+  }
+  .threeBoxes{
+    position: absolute;
+    top: 1320px;
+  }
+  .insertBox{
+    width: 15px;
+  }
+  .bottom-box{
+    background-color: #891008;
+    background-image: url('./images/truck-35.png'),linear-gradient(to bottom, #C20C01  , #7D0A03);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    height: 840px;
+  }
+  .msgBox img{
+    width: 20px;
+  }
+  #bulletRed {
+    list-style: none; 
+  }
+  #bulletRed li a{
+    color: white;
+  }
+  #bulletRed li::before {
+    content: "\2022"; 
+    color: red; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+  .unOLbox{
+    position: relative;
+    top: 440px;
+  }
+  #bottomH{
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    color: beige;
+  }
+  #spanText3{
+    background-color: white;
+    color: #142331;
+    padding: 5px 10px 1px 10px;
+  }
+  .msgBox{
+    width: 146px;
+    background-color: white;
+    padding: 4px 0px 6px 14px;
+    border: 2px solid white;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
+  }
+  .footer-div{
+    background-color: #1F2326;
+    height: 70px;
+    padding-top: 24px;
+  }
+  @media (min-width:320px) and (max-width:480px){
+    main{
+      height: 500px;
+    }
+    #main-box{
+      height: 400px;
+    }
+    .middle-box .align-items-center h2{
+      margin-top: 0px;
+      font-size: 20px;
+    }
+    .middle-box .align-items-center p{
+      text-align: left;
+    }
+    .threeBoxes{
+      padding-top: 0px;
+      top: 1120px;
+    }
+    .bottom-box{
+      margin-top: 1600px;
+      background-image: url('./images/truck-35.png');
+      background-size: 200px;
+      background-position: center right; 
+      height: 600px;
+    }
+    #bottomHI{
+      left: 20px;
+      bottom: 250px;
+    }
+    #bulletRed{
+      position: absolute;
+      top: -230px;
+      left: 0px;
+      width: 100%;
+    }
+    .msgBox{
+      width: 50px;
+      bottom: 80px;
+      right:  10px;
+    }
+    .msgBox span{
+      display: none;
+    }
+  }
+  .navbar-toggler{
+    background-color: lavender;
+  }
+  .navbar-toggler-icon{
+    padding-top: 3px;
+  }
+  @media (min-width:481px) and (max-width:767px){
+    main{
+      height: 600px;
+    }
+    .threeBoxes{
+      padding-top: 50px;
+      top: 1020px;
+    }
+    .btnRed{
+      margin-top: 0px!important;
+    }
+    .bottom-box{
+      margin-top: 1000px;
+      background-image: url('./images/truck-35.png');
+      background-size: 200px;
+      background-position: center right; 
+      height: 600px;
+    }
+    #bulletRed{
+      position: absolute;
+      bottom: -165px;
+      left: 200px;
+    }
+    #bottomHI{
+      position: absolute;
+      bottom: 10px;
+    }
+    .bottom-box{
+      padding-left: 45px;
+    }
+    .msgBox{
+      position: absolute;
+      bottom:80px;
+      left: 20px;
+    }
+    .btnRed{
+      padding-top: 0px;
+    }
+    .truckText{
+      height: 120px;
+    }
+  }
+  @media (min-width:768px) and (max-width:991px){
+    main{
+      height: 800px;
+    }
+    .threeBoxes{
+      padding-top: 0px;
+      top: 1170px;
+    }
+    .bottom-box{
+      margin-top: 1000px;
+      background-image: url('./images/truck-35.png');
+      background-size: 200px;
+      background-position: center right; 
+      height: 460px;
+    }
+    #bulletRed{
+      position: absolute;
+      bottom: 0px;
+      left: 260px;
+    }
+    #bottomHI{
+      position: absolute;
+      bottom: 130px;
+    }
+    .bottom-box{
+      padding-left: 45px;
+    }
+    .msgBox{
+      position: absolute;
+      bottom:80px;
+      right: 30px;
+    }
+    .btnRed{
+      padding-top: 0px;
+    }
+    .truckText{
+      height: 80px;
+    }
+  }
+  
